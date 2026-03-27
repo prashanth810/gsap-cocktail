@@ -8,7 +8,6 @@ const App = () => {
       <Navbar />
       <HeroSection />
 
-      <div className='h-dvh bg-black'></div>
     </main>
   )
 }

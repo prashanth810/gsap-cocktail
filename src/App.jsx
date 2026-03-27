@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from './components/navbar/Navbar'
+import HeroSection from './components/hero section/HeroSection'
 
 const App = () => {
   return (
-    <div className='flex-center h-[100vh]'>
-      app
-    </div>
+    <main>
+      <Navbar />
+      <HeroSection />
+
+      <div className='h-dvh bg-black'></div>
+    </main>
   )
 }
 

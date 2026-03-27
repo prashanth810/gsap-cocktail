@@ -57,6 +57,7 @@ body {
     mask-size: 50%;
 }
 
+
 @layer components {
     main {
         @apply w-full overflow-x-hidden;
